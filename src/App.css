@@ -1,0 +1,67 @@
+/**FrontPage**/
+.container{
+  display: flex;
+flex-direction: row;
+}
+.container .left{
+padding: 87px 150px 50px 150px;
+margin-left: 100px;
+}
+.container .left img{
+  height: 80vh;
+  width: 110%;
+}
+.container .right{
+  padding-top: 180px;
+}
+.container .right button{
+  height: 50px;
+  width: 126px;
+  border-radius: 16px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 3px solid #006238;
+  color:#006238;
+}
+
+.container .right h3{
+  font-size: 64px;
+  color: #006238;
+}
+
+.container .right button:hover{
+  background-color: #006238;
+  color: whitesmoke;
+  transition: .5s;
+}
+
+/**Landing page**/
+
+
+
+/**Navbar**/
+
+
+header{
+  box-sizing: border-box;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header .instalogo img{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.header .heading{
+  font: normal normal normal 50px/50px Palatino;
+  padding: 5px;
+}
+
+.header .clogo{
+  margin-top: 10px;
+  float: right;
+  border: none;
+  background-color: white;
+  margin-right: 50px;
+}
